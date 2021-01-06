@@ -10,7 +10,7 @@ app = Flask(__name__)
 #run_with_ngrok(app)
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="hackwestern-296303-1a10456e3ecc.json"
 params = {
-    'access_key': 'f335d3187d095ae269e0cd3f0f24bf27',
+    'access_key': 'MYKEY',
     'query': 'Toronto'
 }
 @app.route('/')
